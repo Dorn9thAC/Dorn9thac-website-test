@@ -30,6 +30,8 @@ body {
 
     position: relative;
 
+    z-index: 20;
+
 }
 
 .heading-content{
@@ -38,27 +40,34 @@ body {
 
     align-items: center;
 
-    padding: 20px 60px;
+    padding: 15px 70px 15px 220px;
 
-    min-height: 100px;
+    min-height: 120px;
+
+    border-bottom: 10px solid var(--primary);
 
 }
 
 .heading-content img{
-    width: 175px;
-    height:absolute;
-    top: 20px;
-    left: 40px;
-    z-index: 10;
+    width: 180px;
+    height:auto;
+    position: absolute;
+    top: 18px;
+    left: 55px;
+    z-index: 30;
 
 }
 
 .heading-content h1{
     margin: 0;
 
-    font-size: 4rem;
+    font-size: 2.5rem;
 
-    margin-left:180px;
+    color: var(--text);
+
+    letter-spacing: 2px;
+
+    white-space: nowrap;
 
 }
 
@@ -67,8 +76,22 @@ nav {
 
     display: flex;
 
-    gap: 40px;
+    gap: 32px;
 
+    align-items: center;
+
+}
+
+.button{
+    color:var(--text);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.button:hover {
+    color:var(--primary)
 }
 
 .hero-content{
