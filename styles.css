@@ -8,13 +8,32 @@
     --medical-red: #7F1617;
     --eod-orange: #EC832C;
 
-    --background: #0b0d0b;
-    --text: #f2f4ed;
-    --muted: #b9beb3;
+    --background: #ffffff;
+    --text: #131313;
+    --muted: #3a3a3a;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
+    margin: 0;
+    background: var(--background);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+}
 
+.heading{
+
+    background: var(--background);
+
+}
+
+.heading-content{
+
+    display: flex;
+
+    align-items: center;
     
-
 }
