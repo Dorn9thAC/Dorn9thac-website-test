@@ -14,56 +14,7 @@
 }
 
 body {
-    margin: 0;
-    background: radial-gradient(circle at top, var(--primary), var(--background) 55%);
-    color: var(--text);
-    font-family: Arial, sans-serif;
-}
 
-.construction {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 32px;
-}
+    
 
-.card {
-    max-width: 720px;
-    text-align: center;
-    background: rgba(21, 24, 21, 0.88);
-    border: 1px solid var(--secondary);
-    padding: 56px;
-    box-shadow: 0 0 40px rgba(0,0,0,.45);
-}
-
-h1 {
-    font-size: 56px;
-    margin: 0;
-}
-
-h2 {
-    color: var(--secondary);
-    letter-spacing: 4px;
-    margin-top: 12px;
-}
-
-p {
-    color: var(--muted);
-    font-size: 18px;
-}
-
-.button {
-    display: inline-block;
-    margin-top: 28px;
-    padding: 14px 28px;
-    color: var(--text);
-    border: 1px solid var(--secondary);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.button:hover {
-    background: var(--secondary);
-    color: black;
 }
