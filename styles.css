@@ -36,10 +36,12 @@ body {
 
     align-items: center;
 
+    padding: 20px 60px;
+
 }
 
 .heading-content img{
-    width: 120px;
+    width: 150px;
     height:auto;
 
 }
@@ -47,9 +49,53 @@ body {
 .heading-content h1{
     margin: 0;
 
+    font-size: 4rem;
+
 }
 
 nav {
     margin-left: auto;
+
+    display: flex;
+
+    gap: 40px;
+
+}
+
+.hero-content{
+
+    position:relative;
+
+}
+
+.hero-video{
+
+    width: 100%;
+
+    height: 500px;
+
+    object-fit: cover;
+
+}
+
+.traits {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    gap: 35px;
+
+    color: white;
+    font-size: 1.6rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 0 4px 14px black;
+
+}
+
+.traits h2{
+    margin: 0;
     
 }
