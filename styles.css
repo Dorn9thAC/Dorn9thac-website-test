@@ -35,5 +35,21 @@ body {
     display: flex;
 
     align-items: center;
+
+}
+
+.heading-content img{
+    width: 120px;
+    height:auto;
+
+}
+
+.heading-content h1{
+    margin: 0;
+
+}
+
+nav {
+    margin-left: auto;
     
 }
